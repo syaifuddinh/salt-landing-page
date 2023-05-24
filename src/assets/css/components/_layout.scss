@@ -1,0 +1,65 @@
+    .flex-row {
+        flex-direction: row;
+    }
+
+    .flex-column {
+        flex-direction: column;
+    }
+@each $name, $size in $breakpoints {
+    @media (min-width: $size) {
+        div .flex-#{$name}-row {
+            flex-direction: row;
+        }
+
+        div .flex-#{$name}-column {
+            flex-direction: column;
+        }
+    }
+
+    @each $display in $displays {
+        @media (min-width: $size) {
+            div .d-#{$name}-#{$display} {
+                display: $display;
+            }
+        }
+    }
+}
+
+@each $display in $displays {
+    .d-#{$display} {
+        display: $display;
+    }
+
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-end {
+    align-items: end;
+}
+
+.z-index-10 {
+    z-index: 10;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}

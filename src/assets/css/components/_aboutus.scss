@@ -1,0 +1,30 @@
+.meta-current-page {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.meta-navigation {
+    min-width: 3.25rem;
+    min-height: 3.25rem;
+    max-width: 3.25rem;
+    max-height: 3.25rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meta-page {
+    font-weight: 500 !important;
+    font-size: 0.875rem;
+    padding-bottom: 0.250rem;
+}
+.meta-divider-page {
+    font-weight: 500;
+    font-size: 0.875rem;
+    padding-bottom: 0.250rem;
+}
+
+.meta-slider {
+    position: relative;
+}

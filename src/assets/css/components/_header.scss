@@ -1,0 +1,27 @@
+@use "sass:map";
+
+.meta-header1, .meta-header2 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.header {
+    height: 46rem;
+    overflow: hidden;
+
+    .meta-container {
+        position: absolute;
+        top:40%;
+        width: 100%;
+    }
+
+    .meta-image {
+        position: absolute;
+        width: 100%;
+    }
+
+    .meta-content {
+        top: 16rem
+    }
+}

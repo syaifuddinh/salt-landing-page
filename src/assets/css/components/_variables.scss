@@ -1,0 +1,18 @@
+$theme-colors: (
+    "primary": #4097DB,
+    "secondary": #07477A,
+    "accent": "#53A7E9",
+    "black": black,
+    "muted": #777777,
+    "white": white,
+    "gray": #F1F1F1
+);
+
+$breakpoints : (
+    "xs" : 0px,
+    "sm" : 576px,
+    "md" : 768px,
+    "lg" : 992px
+);
+
+$displays: flex, block, none;                                          
